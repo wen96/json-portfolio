@@ -25,8 +25,10 @@
 	        		<p class="text-right"><b>{{key}}</b></p>
 	        	</div>
 	        	<div class="col-md-9">
-	        		<ul>
-	        			<li ng-repeat="object in value">{{object}}</li>
+	        		<ul class="list-unstyled">
+	        			<li ng-repeat="object in value">
+                            <info-template data="object" section="key"></info-template>
+                        </li>
 	        		</ul>
 	        	</div>
         	</div>
