@@ -24,8 +24,8 @@
   	{
   		"date_start": 1231459200,
   		"date_end": 1389052800,
-  		"role": "Becary",
-  		"enterprise": "Microsoft student partner",
+  		"role": "Microsoft student partner",
+  		"enterprise": "Microsoft",
   		"current": false
   	},
   	{
@@ -64,8 +64,59 @@
   "projects": [
   	{
   		"title": "Stracomter III",
-  		"description": "Videogame developed in C++"
-  	}
+  		"description": "Videogame developed to University of Alicante implementing our owns engines except phisics",
+      "url": "https://github.com/wen96/StracomterIII",
+      "status": "finished",
+      "technologies": ["C++", "OpenGL", "Box2D"]
+  	},
+    {
+      "title": "Mobles Alcaraz",
+      "description": "Furniture web page with confiruable gallery",
+      "url": "http://www.moblesalcaraz.es/",
+      "status": "working",
+      "technologies": ["CakePHP", "MySQL", "JQuery"]
+    },
+    {
+      "title": "Luz carne bits",
+      "description": "Photography web page to show configurable galleries",
+      "status": "under construction",
+      "technologies": ["Symphony", "JQuery", "Bootstrap"]
+    },
+    {
+      "title": "WenShark",
+      "description": "Grooveshark clone using a REST API built on .NET Web API (backend) and AngularJS (client-side).",
+      "url": "https://github.com/wen96/Wenshark",
+      "status": "finished",
+      "technologies": ["C#", "AngularJS", "Entity framework", ".NET"]
+    },
+    {
+      "title": "PL-MAN v2.0",
+      "description": "Project developed to provide a platform where people interested in AI can create bots that complete PC-MAN style maps",
+      "url": "https://github.com/wen96/pl-man2",
+      "status": "finished",
+      "technologies": ["C++", "Irrlicht", "Boost"]
+    },
+    {
+      "title": "FFT in FPGA",
+      "description": "Fast Fourier transform implemented on FPGA Celoxica RC10",
+      "url": "https://www.youtube.com/watch?v=KlsgDuzdqac",
+      "status": "finished",
+      "technologies": ["Handel-C", "FPGA"]
+    },
+    {
+      "title": "Rastreator robot",
+      "description": "Robot that follow lines in the floor",
+      "url": "https://www.facebook.com/photo.php?v=3188633932562&l=6722855949666727750",
+      "status": "finished",
+      "technologies": ["Arduino"]
+    },
+    {
+      "title": "Windows 8 applications",
+      "description": "A serie of three Windows 8 apps including videogames and lifestyle applications",
+      "url": "http://apps.microsoft.com/windows/es-es/app/wenbity/6785e4d7-09a6-48a2-a442-46d19d5aeaef",
+      "status": "under construction",
+      "technologies": ["C#", "Windows 8"]
+    }
   ],
   "social": {
   	"github": "https://github.com/wen96",
