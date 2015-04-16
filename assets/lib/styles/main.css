@@ -1,3 +1,24 @@
+html, body {
+  height: 100%;
+}
+
+.wrap {
+  min-height: 100%;
+}
+
+.main {
+  overflow:auto;
+  padding-bottom:70px; /* this needs to be bigger than footer height*/
+}
+.footer{
+  position: relative;
+  margin-top: -70px; /* negative value of footer height */
+  height: 70px;
+  clear:both;
+  padding-top:20px;
+  border-top: 1px solid #eee;
+}
+
 .social-links i {
 	margin-right: 5px;
 	margin-left: 5px;
@@ -11,3 +32,4 @@
 .info-view {
 	margin-top: 80px;
 }
+

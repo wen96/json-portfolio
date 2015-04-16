@@ -1,26 +1,34 @@
 <!doctype html>
 <html lang="en" ng-app="portfolio">
   <head>
-    <meta charset="utf-8">
-    <title>Rubén Pardo Millá - Portfolio</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        <title>Rubén Pardo Millá - Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <!-- build:css assets/lib/all.min.css -->
-    <!-- bower:css -->
-    <link rel="stylesheet" href="assets/lib/vendor/fontawesome/css/font-awesome.css" />
-    <link rel="stylesheet" href="assets/lib/vendor/bootstrap/dist/css/bootstrap.css" />
-    <!-- endbower -->
+        <!-- build:css assets/lib/all.min.css -->
+        <!-- bower:css -->
+        <link rel="stylesheet" href="assets/lib/vendor/fontawesome/css/font-awesome.css" />
+        <link rel="stylesheet" href="assets/lib/vendor/bootstrap/dist/css/bootstrap.css" />
+        <!-- endbower -->
 
-    <link rel="stylesheet" href="assets/lib/styles/main.css" />
-    <!-- endbuild -->
+        <link rel="stylesheet" href="assets/lib/styles/main.css" />
+        <!-- endbuild -->
 
-  </head>
+    </head>
     <body>
-        <div class="container">
-            <div ng-view></div>
-            
+        <div class="wrap">
+            <div class="main container">
+                <div ng-view></div>
+                
+            </div>
         </div>
+
+        <footer class="footer container">
+            <p class="text-center">
+                Rubén Pardo 2015
+            </p>
+        </footer>
 
         <!-- build:js assets/lib/vendor.min.js -->
         <!-- bower:js -->
