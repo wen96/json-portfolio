@@ -20,13 +20,13 @@
         	</div>
     	</div>
         <div ng-hide="developer">
-        	<div class="row" ng-repeat="(key, value) in user.mapedKeys()">
+        	<div class="row" ng-repeat="key in mappedKeys">
 	        	<div class="col-md-3">
 	        		<p class="text-right"><b>{{key}}</b></p>
 	        	</div>
 	        	<div class="col-md-9">
 	        		<ul class="list-unstyled">
-	        			<li ng-repeat="object in value">
+	        			<li ng-repeat="object in user[key]">
                             <info-template data="object" section="key"></info-template>
                         </li>
 	        		</ul>
