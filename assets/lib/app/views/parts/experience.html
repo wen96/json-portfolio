@@ -1,0 +1,8 @@
+<div>
+	<b>{{data.role}}</b> - {{data.enterprise}}
+</div>
+<div>
+	{{data.date_start | date}} - 
+	<span ng-if="data.date_end">{{data.date_end | date}}</span>
+	<span ng-if="!data.date_end">present</span>
+</div>

@@ -1,4 +1,4 @@
-// Copyright 2015 Rubén Pardo. All Rights Reserved.
+// Copyright 2015 UniMOOC. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,12 +15,17 @@
 'use strict';
 
 angular.module('portfolio')
-.controller('MainCtrl', ['$scope', 'user', function($scope, user){
-	$scope.user = user;
-	$scope.developer = window.localStorage.getItem('developer') === 'true';
-	$scope.imDeveloper = function(){
-		$scope.developer = !$scope.developer;
-		window.localStorage.setItem('developer', $scope.developer);
-	};
-	$scope.mappedKeys = ['education', 'projects', 'experience', 'skills'];
+.directive('infoTemplate', [function() {
+    return  {
+        scope: {
+            data: '=data',
+            section: '=section'
+        },
+        link: function($scope) {
+            $scope.getContentUrl = function() {
+                return 'assets/lib/app/views/parts/' + $scope.section + '.html';
+            };
+        },
+        template: '<div ng-include="getContentUrl()"></div>'
+    };
 }]);
