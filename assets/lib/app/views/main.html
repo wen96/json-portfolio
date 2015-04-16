@@ -1,0 +1,27 @@
+<div class="masthead">
+    <h1 class="text-muted">{{user.name}}</h1>
+    
+</div>
+<div class="row">
+    <div class="col-md-3 text-center">
+        <img ng-src="{{user.img}}" alt="Rubén" class="img-circle" style="width: 140px;"/>
+    	<h3><small>{{user.bio}}</small></h3>
+    	<button class="btn" ng-click="imDeveloper()">{{developer? 'Really...I\'m not a developer :(':'I\'m a developer'}}</button>
+    </div>
+    <div class="col-md-9" style="margin-top:20px;">
+    	<div ng-show="developer">
+    		<p><b>GET</b> <a href="http://rubenpardomilla.com/assets/data.json" target="_blank">http://rubenpardomilla.com/assets/data.json</a></p>
+        	<pre>{{user | json : spacing}}</pre>
+    	</div>
+        <div ng-hide="developer">
+        	<div class="row" ng-repeat="(key, value) in user.mapedKeys()">
+	        	<div class="col-md-3">
+	        		<p class="text-right"><b>{{key}}</b></p>
+	        	</div>
+	        	<div class="col-md-9">
+	        		<p>{{value}}</p>
+	        	</div>
+        	</div>
+        </div>
+    </div>
+</div>

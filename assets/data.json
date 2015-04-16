@@ -1,0 +1,89 @@
+{
+  "name": "Rubén Pardo Millá",
+  "phone": "+34 645 136467",
+  "location": {
+  	"country": "Spain",
+  	"city": "Petrer",
+  	"state": "Alicante",
+  	"postcode": "03610"
+  },
+  "bio": "Web developer or whatever you want",
+  "skills": {
+    "frontend_powers": ["AngularJS", "HMTL", "CSS", "Grunt", "Gulp", "Bower"],
+    "backend_super_powers": ["DJango", "Symphony", "Laravel", "CakePHP", "Google course builder", "Google app engine", "Entity framework"],
+    "others_powers": ["Elasticsearch", "Google cloud storage", "MySQL", "C++", "Machine learning"]
+  },
+  "experience": [
+  	{
+  		"date_start": 1231459200,
+  		"date_end": null,
+  		"role": "Fullstack developer",
+  		"enterprise": "UniMOOC",
+  		"current": true
+  	},
+  	{
+  		"date_start": 1231459200,
+  		"date_end": 1389052800,
+  		"role": "Becary",
+  		"enterprise": "Microsoft student partner",
+  		"current": false
+  	},
+  	{
+  		"date_start": 1231459200,
+  		"date_end": 1389052800,
+  		"role": "Web developer",
+  		"enterprise": "Adora",
+  		"current": false
+  	},
+  	{
+  		"date_start": 1231459200,
+  		"date_end": 1389052800,
+  		"role": "Web developer",
+  		"enterprise": "Aqueduct",
+  		"current": false
+  	}
+  ],
+  "education": [
+  	{
+  		"date_start": 1231459200,
+  		"date_end": 1389052800,
+  		"title": "Computer science (Ingeniería informática plan 2001)",
+  		"issuer": "University of Alicante",
+  		"type": "Degree",
+  		"current": false
+  	},
+  	{
+  		"date_start": 1231459200,
+  		"date_end": 1389052800,
+  		"title": "Desarrollo de aplicaciones informáticas (Applications development)",
+  		"issuer": "IES Paco Mollá",
+  		"type": "Professional formation",
+  		"current": false
+  	}
+  ],
+  "projects": [
+  	{
+  		"title": "Stracomter III",
+  		"description": "Videogame developed in C++"
+  	}
+  ],
+  "social": [
+  	{
+  		"service": "github",
+  		"url": "https://github"
+  	},
+  	{
+  		"service": "twitter",
+  		"url": "https://twitter.com/RubenPardoMilla"
+  	},
+  	{
+  		"service": "gplus",
+  		"url": "https://plus.google.com/+RubenPardoMilla"
+  	},
+  	{
+  		"service": "linkedn",
+  		"url": "https://plus.google.com/+RubenPardoMilla"
+  	}
+  ],
+  "img":"https://lh4.googleusercontent.com/-hvztz5qM2fo/U1eP81dB44I/AAAAAAAAAi4/u3VyLU4Y2QY/w845-h847-no/IMG_4600.png"
+}
