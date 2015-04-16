@@ -61,6 +61,12 @@
   		"current": false
   	}
   ],
+  "languages": [
+    {
+      "name": "The language name here",
+      "level": "Your level here",
+    }
+  ],
   "projects": [
   	{
   		"title": "Stracomter III",
