@@ -1,0 +1,10 @@
+.social-links i {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.social-links a {
+	color: #555;
+}
+.social-links a:hover {
+	color: #777;
+}

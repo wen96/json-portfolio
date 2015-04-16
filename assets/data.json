@@ -67,23 +67,10 @@
   		"description": "Videogame developed in C++"
   	}
   ],
-  "social": [
-  	{
-  		"service": "github",
-  		"url": "https://github"
-  	},
-  	{
-  		"service": "twitter",
-  		"url": "https://twitter.com/RubenPardoMilla"
-  	},
-  	{
-  		"service": "gplus",
-  		"url": "https://plus.google.com/+RubenPardoMilla"
-  	},
-  	{
-  		"service": "linkedn",
-  		"url": "https://plus.google.com/+RubenPardoMilla"
-  	}
-  ],
+  "social": {
+  	"github": "https://github.com/wen96",
+  	"twitter": "https://twitter.com/RubenPardoMilla",
+  	"gplus": "https://plus.google.com/+RubenPardoMilla"
+  },
   "img":"https://lh4.googleusercontent.com/-hvztz5qM2fo/U1eP81dB44I/AAAAAAAAAi4/u3VyLU4Y2QY/w845-h847-no/IMG_4600.png"
 }

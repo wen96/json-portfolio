@@ -6,6 +6,11 @@
     <div class="col-md-3 text-center">
         <img ng-src="{{user.img}}" alt="Rubén" class="img-circle" style="width: 140px;"/>
     	<h3><small>{{user.bio}}</small></h3>
+    	<p class="social-links">
+    		<a href="{{user.social.github}}" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+    		<a href="{{user.social.twitter}}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+    		<a href="{{user.social.gplus}}" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+    	</p>
     	<button class="btn" ng-click="imDeveloper()">{{developer? 'Really...I\'m not a developer :(':'I\'m a developer'}}</button>
     </div>
     <div class="col-md-9" style="margin-top:20px;">
