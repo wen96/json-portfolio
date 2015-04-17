@@ -6,3 +6,6 @@
 	<span ng-if="data.date_end">{{data.date_end*1000 | date}}</span>
 	<span ng-if="!data.date_end">present</span>
 </div>
+<div ng-if="data.projects">
+	Projects: <a href="{{project.url}}" target="_blank" class="label label-info" ng-repeat="project in data.projects">{{project.name}} </a>
+</div>
