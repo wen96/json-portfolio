@@ -63,8 +63,16 @@
   ],
   "languages": [
     {
-      "name": "The language name here",
-      "level": "Your level here",
+      "name": "Spanish",
+      "level": "native"
+    },
+    {
+      "name": "Catalan",
+      "level": "native"
+    },
+    {
+      "name": "English",
+      "level": "working proficiency"
     }
   ],
   "projects": [
