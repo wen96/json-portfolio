@@ -26,10 +26,14 @@
 	        	</div>
 	        	<div class="col-md-9">
 	        		<ul class="list-unstyled">
-	        			<li ng-repeat="object in user[key]">
+	        			<li ng-repeat="object in user[key]" ng-hide="$index > 6 && !showAllProjects">
                             <info-template data="object" section="key"></info-template>
                         </li>
 	        		</ul>
+                    <a ng-show="user[key].length > 6 && key === 'projects'" href="" ng-click="showAllProjects=!showAllProjects">
+                        <span ng-if="showAllProjects">Less <i class="fa fa-caret-up"></i></span>
+                        <span ng-if="!showAllProjects">More <i class="fa fa-caret-down"></i></span>
+                    </a>
 	        	</div>
         	</div>
         </div>
