@@ -14,13 +14,24 @@
     "others_powers": ["Elasticsearch", "Google cloud storage", "MySQL", "C++", "Machine learning"]
   },
   "experience": [
+    {
+  		"date_start": 1447688487,
+  		"date_end": null,
+  		"role": "Software developer",
+  		"enterprise": "Gemalto",
+  		"current": true
+   },
   	{
   		"date_start": 1391212800,
-  		"date_end": null,
+  		"date_end": 1447688487,
   		"role": "Fullstack developer",
   		"enterprise": "UniMOOC",
-  		"current": true,
+  		"current": false,
       "projects": [
+        {
+          "name": "Digital Garage",
+          "url": "https://digitalgarage.withgoogle.com/"
+        },
         {
           "name": "Google Actívate",
           "url": "https://cursos.formacionactivate.es/"
