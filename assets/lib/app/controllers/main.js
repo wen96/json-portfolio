@@ -23,5 +23,5 @@ angular.module('portfolio')
 		window.localStorage.setItem('developer', $scope.developer);
 	};
 	$scope.showAllProjects = false;
-	$scope.mappedKeys = ['education', 'projects', 'experience', 'skills'];
+	$scope.mappedKeys = ['experience', 'skills', 'education', 'projects'];
 }]);
