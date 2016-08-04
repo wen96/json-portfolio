@@ -3,15 +3,15 @@
   "phone": "+34 645 136467",
   "location": {
   	"country": "Spain",
-  	"city": "Petrer",
+  	"city": "San Vicente",
   	"state": "Alicante",
-  	"postcode": "03610"
+  	"postcode": "03690"
   },
   "bio": "Web developer or whatever you want",
   "skills": {
     "frontend_powers": ["AngularJS", "HMTL", "CSS", "Grunt", "Gulp", "Bower"],
-    "backend_super_powers": ["DJango", "Symphony", "Laravel", "CakePHP", "Google course builder", "Google app engine", "Entity framework"],
-    "others_powers": ["Elasticsearch", "Google cloud storage", "MySQL", "C++", "Machine learning"]
+    "backend_super_powers": ["DJango", "Ansible", "Celery", "Symphony", "Laravel", "CakePHP", "Google course builder", "Google app engine", "Entity framework"],
+    "others_powers": ["Microservices", "Elasticsearch", "Google cloud storage", "MySQL", "C++", "Machine learning"]
   },
   "experience": [
     {
@@ -19,7 +19,13 @@
   		"date_end": null,
   		"role": "Software developer",
   		"enterprise": "Gemalto",
-  		"current": true
+  		"current": true,
+  		 "projects": [
+        {
+          "name": "gOps",
+          "url": "#"
+        }
+      ]
    },
   	{
   		"date_start": 1391212800,
@@ -65,6 +71,14 @@
   	}
   ],
   "education": [
+  	{
+  		"date_start": 1251763200,
+  		"date_end": 1404172800,
+  		"title": "Master of education (Master en eduación)",
+  		"issuer": "University of Alicante",
+  		"type": "Master",
+  		"current": false
+  	},
   	{
   		"date_start": 1251763200,
   		"date_end": 1404172800,
