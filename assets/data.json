@@ -72,8 +72,8 @@
   ],
   "education": [
   	{
-  		"date_start": 1251763200,
-  		"date_end": 1404172800,
+  		"date_start": 1441385589,
+  		"date_end": 1467651189,
   		"title": "Master of education (Master en eduación)",
   		"issuer": "University of Alicante",
   		"type": "Master",
@@ -113,7 +113,7 @@
   "projects": [
   	{
   		"title": "Stracomter III",
-  		"description": "Videogame developed to University of Alicante implementing our owns engines except phisics",
+  		"description": "Videogame developed to University of Alicante implementing our own engines except phisics",
       "url": "https://github.com/wen96/StracomterIII",
       "status": "finished",
       "technologies": ["C++", "OpenGL", "Box2D"]
