@@ -1,2 +1,4 @@
 node_modules/
 assets/lib/vendor/
+bin/
+pkg/
