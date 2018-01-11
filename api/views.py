@@ -1,9 +1,14 @@
 import json
 
+from django.views.generic import TemplateView
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
 from api.models import AboutJson
+
+
+class MainView(TemplateView):
+    template_name = 'index.html'
 
 
 class About(APIView):
