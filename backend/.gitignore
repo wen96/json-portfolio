@@ -1,7 +1,3 @@
-node_modules/
-assets/lib/vendor/
-
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
