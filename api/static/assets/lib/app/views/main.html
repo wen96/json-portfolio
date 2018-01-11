@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-md-3 text-center side-bar">
+    	<h1 class="text-muted">{{user.name}}</h1>
+        <img ng-src="{{user.img}}" alt="Rubén" class="img-circle" style="width: 140px;"/>
+    	<h3><small>{{user.bio}}</small></h3>
+    	<p class="social-links">
+    		<a href="{{user.social.github}}" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+    		<a href="{{user.social.twitter}}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+    		<a href="{{user.social.gplus}}" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+    	</p>
+    	<button class="btn" ng-click="imDeveloper()">{{developer? 'Actually...I\'m not developer :(':'I\'m developer'}}</button>
+    </div>
+    <div class="col-md-9 in info-view">
+    	<div ng-show="developer">
+    		<div class="row">
+    			<div class="col-md-12">
+		    		<p><b>GET</b> <a href="http://rubenpardomilla.com/assets/data.json" target="_blank">http://rubenpardomilla.com/assets/data.json</a></p>
+		        	<pre>{{user | json : spacing}}</pre>
+	        	</div>
+        	</div>
+    	</div>
+        <div ng-hide="developer">
+        	<div class="row" ng-repeat="key in mappedKeys">
+	        	<div class="col-md-3">
+	        		<p class="text-right"><b>{{key}}</b></p>
+	        	</div>
+	        	<div class="col-md-9">
+	        		<ul class="list-unstyled">
+	        			<li ng-repeat="object in user[key]" ng-hide="$index > 6 && !showAllProjects">
+                            <info-template data="object" section="key"></info-template>
+                        </li>
+	        		</ul>
+                    <a ng-show="user[key].length > 6 && key === 'projects'" href="" ng-click="showAllProjects=!showAllProjects">
+                        <span ng-if="showAllProjects">Less <i class="fa fa-caret-up"></i></span>
+                        <span ng-if="!showAllProjects">More <i class="fa fa-caret-down"></i></span>
+                    </a>
+	        	</div>
+        	</div>
+        </div>
+    </div>
+</div>
