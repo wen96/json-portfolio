@@ -8,11 +8,11 @@ verify_ssl = true
 [packages]
 gunicorn = "==19.7.1"
 dj-database-url = "==0.4.2"
-psycopg2 = "==2.7.1"
+psycopg2 = "==2.7.7"
 whitenoise = "==3.3.0"
 django-redis-cache = "==1.7.1"
 djangorestframework = "==3.7.7"
-Django = "==1.11.8"
+Django = ">=1.11.8"
 
 [requires]
 python_version = "3.6"
